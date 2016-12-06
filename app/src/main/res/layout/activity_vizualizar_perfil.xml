@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_vizualizar_perfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.moviles.marioandres.myaplicationmoviles.VizualizarPerfil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="128dp"
+                    app:srcCompat="@drawable/ic_perfil"
+                    android:id="@+id/imageView"
+                    android:scaleType="fitStart"
+                    android:minHeight="95dp" />
+
+                <Button
+                    android:text="Consultar Perfil"
+                    android:layout_width="188dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnConsultarPerfil"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    style="@style/Widget.AppCompat.Button.Borderless" />
+            </GridLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtNombrePerfil"
+                android:hint="Nombre"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtApellidosPerfil"
+                android:hint="Apellidos"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/txtEmailPerfil"
+                android:hint="Email"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtCargoPerfil"
+                android:hint="Cargo"
+                android:layout_marginTop="20dp"
+                android:focusable="false"/>
+
+            <Button
+                android:text="modificar perfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnModificarPerfil"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

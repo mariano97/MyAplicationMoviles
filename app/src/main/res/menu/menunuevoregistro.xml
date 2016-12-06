@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tiposDocumentos"
+        android:title="Tipos de Documentos">
+        <menu>
+            <item
+                android:id="@+id/cedula"
+                android:title="Cedula de Ciudadania"/>
+            <item
+                android:id="@+id/cedulaExtranjera"
+                android:title="Cedula de Extranjeria"/>
+            <item
+                android:id="@+id/permisotipodoc"
+                android:title="Permiso Trabajo"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/estadopersonal"
+        android:title="Estados">
+        <menu>
+            <item
+                android:id="@+id/soltero"
+                android:title="soltero"/>
+            <item
+                android:id="@+id/casado"
+                android:title="casado"/>
+            <item
+                android:id="@+id/viudo"
+                android:title="viudo"/>
+            <item
+                android:id="@+id/fallecido"
+                android:title="Fallecido"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/cargospersonal"
+        android:title="Cargos">
+        <menu>
+            <item
+                android:title="estudiante"
+                android:id="@+id/estudiante">
+            </item>
+            <item
+                android:id="@+id/profesional"
+                android:title="profesional" />
+        </menu>
+    </item>
+
+
+</menu>

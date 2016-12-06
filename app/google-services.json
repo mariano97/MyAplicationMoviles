@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "400773020372",
+    "firebase_url": "https://trabajo-26418.firebaseio.com",
+    "project_id": "trabajo-26418",
+    "storage_bucket": "trabajo-26418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400773020372:android:9d450caa3fde055e",
+        "android_client_info": {
+          "package_name": "com.trabajo.marioandres.trabajo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400773020372-uql6iptr6j7qbpn1ft655pf884qvik61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trabajo.marioandres.trabajo",
+            "certificate_hash": "CF2DCCBD354535EF833B6084205E77CEC8936183"
+          }
+        },
+        {
+          "client_id": "400773020372-h5rt3qvcfme5v1tehmfbjv45adi1c3gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3S29L-KpU-KOP68a04uYL4ytOJdyQf7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400773020372-h5rt3qvcfme5v1tehmfbjv45adi1c3gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400773020372:android:1a081653c1580a27",
+        "android_client_info": {
+          "package_name": "com.moviles.marioandres.myaplicationmoviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400773020372-3ntn9gg3qmgq576fm00dbt9ahpk63n6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moviles.marioandres.myaplicationmoviles",
+            "certificate_hash": "CF2DCCBD354535EF833B6084205E77CEC8936183"
+          }
+        },
+        {
+          "client_id": "400773020372-h5rt3qvcfme5v1tehmfbjv45adi1c3gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3S29L-KpU-KOP68a04uYL4ytOJdyQf7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400773020372-h5rt3qvcfme5v1tehmfbjv45adi1c3gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
